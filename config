@@ -9,6 +9,8 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+#focus_follows_mouse no 
+
 set $mod Mod4
 #set $mod Caps_Lock 
 
@@ -224,7 +226,9 @@ bindsym $mod+Shift+e exec --no-startup-id xfce4-session-logout
 bindsym $mod+Shift+s exec --no-startup-id xfce4-settings-manager
 bindsym $mod+Shift+m exec --no-startup-id xfce4-display-settings -m 
 bindsym $mod+period move workspace to output right
+bindsym $mod+Shift+period move container to output right
 bindsym $mod+comma move workspace to output left
+bindsym $mod+Shift+comma move container to output left
 
 # Launch google
 bindsym $mod+g exec --no-startup-id google-chrome
