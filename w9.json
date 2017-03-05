@@ -1,0 +1,84 @@
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 506,
+               "width": 802,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Xfce4\\-terminal$",
+               "instance": "^xfce4\\-terminal$",
+               "title": "^Terminal$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splitv split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 506,
+                       "width": 802,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "Terminal",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Xfce4\\-terminal$",
+                       "instance": "^xfce4\\-terminal$",
+                       "title": "^Terminal$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "normal",
+                    "current_border_width": 2,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 506,
+                       "width": 802,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "name": "Terminal",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^Xfce4\\-terminal$",
+                       "instance": "^xfce4\\-terminal$",
+                       "title": "^Terminal$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
